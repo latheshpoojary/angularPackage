@@ -1,0 +1,24 @@
+/* Reset Angular Material typography styles */
+body {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.mat-typography {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.mat-h1, .mat-h2, .mat-h3, .mat-h4, .mat-h5, .mat-h6,
+.mat-typography h1, .mat-typography h2, .mat-typography h3, .mat-typography h4, .mat-typography h5, .mat-typography h6 {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.mat-typography p{
+  margin: 0;
+}

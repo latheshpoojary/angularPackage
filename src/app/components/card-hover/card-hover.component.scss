@@ -1,0 +1,11 @@
+
+
+
+.card-conatiner{
+	.card:hover{
+		scale: 1.05;
+	}
+	&:has(.card:hover) > .card:not(:hover){
+		opacity: 0.4;
+	}
+}
